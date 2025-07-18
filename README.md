@@ -10,8 +10,8 @@
   <a href="https://graspgen.github.io">
     <img alt="Project Page" src="https://img.shields.io/badge/Project-Page-F0529C">
   </a>
-  <a href="https://drive.google.com/file/d/1YfGdulDoEqSpp8-MLZTU1dafIzlH1Wx0/view?usp=sharing">
-    <img alt="Arxiv paper link" src="https://img.shields.io/badge/arxiv-2409.17146-blue">
+  <a href="https://arxiv.org/abs/2507.13097">
+    <img alt="Arxiv paper link" src="https://img.shields.io/badge/arxiv-2507.13097-blue">
   </a>
   <a href="https://huggingface.co/adithyamurali/GraspGenModels">
     <img alt="Model Checkpoints link" src="https://img.shields.io/badge/%F0%9F%A4%97%20HF-Models-yellow">
@@ -264,13 +264,12 @@ For business inquiries, please submit the form [NVIDIA Research Licensing](https
 If you found this work to be useful, please considering citing:
 
 ```
-@misc{murali2025graspgen,
-      title={GraspGen: A Diffusion-based Framework for 6-DOF Grasping},
-      author={Adithyavairavan Murali, Balakumar Sundaralingam, Yu-Wei Chao, Jun Yamada, Wentao Yuan, Mark Carlson, Fabio Ramos, Stan Birchfield, Dieter Fox, Clemens Eppner},
-      year={2025},
-      eprint={TODO},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
+@article{murali2025graspgen,
+  title={GraspGen: A Diffusion-based Framework for 6-DOF Grasping with On-Generator Training},
+  author={Murali, Adithyavairavan and Sundaralingam, Balakumar and Chao, Yu-Wei and Yamada, Jun and Yuan, Wentao and Carlson, Mark and Ramos, Fabio and Birchfield, Stan and Fox, Dieter and Eppner, Clemens},
+  journal={arXiv preprint arXiv:2507.13097},
+  url={https://arxiv.org/abs/2507.13097},
+  year={2025},
 }
 ```
 
