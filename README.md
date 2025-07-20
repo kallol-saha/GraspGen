@@ -139,7 +139,7 @@ There are two datasets to download:
 ```
 git clone https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GraspGen
 ```
-2. **Object Dataset**: We have included a [script](scripts/download_objects.py) for downloading the object dataset below. We recommend running this inside the docker container (the `simplify` arg would not work otherwise). You'll have to specify the directory to save the dataset `<path_to_object_dataset>`. We have only tested the training with simplifed meshes (hence the `--simplify` arg), which was crucial to increasing rendering and simulation speed. This script may take a few hours to complete downloading and will take up a lot of CPU. If you are running inside a docker container, you'll need to mount a location to save this data.
+2. **Object Dataset**: We have included a [script](scripts/download_objects.py) for downloading the object dataset below. We recommend running this inside the docker container (the `simplify` arg would not work otherwise). You'll have to specify the directory to save the dataset `<path_to_object_dataset>`. We have only tested the training with simplified meshes (hence the `--simplify` arg), which was crucial to increasing rendering and simulation speed. This script may take a few hours to complete downloading and will take up a lot of CPU. If you are running inside a docker container, you'll need to mount a location to save this data.
 
 First start the docker:
 ```bash
