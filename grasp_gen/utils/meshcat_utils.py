@@ -268,7 +268,7 @@ def visualize_grasp(
                 g.MeshBasicMaterial(color=rgb2hex(tuple(color)), **kwargs),
             )
         )
-        vis[name].set_transform(transform.astype(np.float32))
+        vis[name].set_transform(transform.astype(float))
 
 
 def get_normals_from_mesh(
