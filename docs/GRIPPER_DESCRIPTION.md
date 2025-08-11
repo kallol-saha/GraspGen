@@ -20,9 +20,13 @@ Each gripper need to have three assets defined
 
 Our gripper definition follows the following convention shown below. The approach direction is the positive Z-axis while the gripper finger closing direction is along the X-axis. 
 
-<img src="fig/graspgen_coordinate_convention.png" width="380" height="250" title="readme1">
+<img src="../fig/graspgen_coordinate_convention.png" width="380" height="250" title="doc1">
 
 If your gripper has a different convention, please use the `transform_offset_from_asset_to_graspgen_convention` variable to bring your gripper to this convention. The original URDF does not need to be modified.
+
+Examples of the frames overlaid on the 3 gripper models we provided in the dataset (Suction, Robotiq 2f-140 and Franka-Panda) are shown below:
+
+<img src="../fig/graspgen_coordinate_convention_examples.png" width="500" height="250" title="doc2">
 
 ### Python Config
 The following variables and functions need to be defined in the python script `{gripper_name}.py`:
