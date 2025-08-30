@@ -94,7 +94,7 @@ pip install pyrender && pip install PyOpenGL==3.1.5 transformers  pyrender diffu
 
 The checkpoints can be downloaded from [HuggingFace](https://huggingface.co/adithyamurali/GraspGenModels):
 ```
-git clone git@hf.co:adithyamurali/GraspGenModels
+git clone https://huggingface.co/adithyamurali/GraspGenModels
 ```
 
 ## Inference Demos
