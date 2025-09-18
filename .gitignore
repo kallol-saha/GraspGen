@@ -26,6 +26,8 @@ __pycache__/*
 */.ipynb_checkpoints/*
 .DS_Store
 
+GraspGenModels/
+
 # Project files
 
 .ropeproject

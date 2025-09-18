@@ -1,0 +1,10 @@
+# ninja log v7
+1	12365	1757296016167122724	/home/ksaha/Research/ModelBasedPlanning/visplanWM/visplan/submodules/graspgen/pointnet2_ops/build/temp.linux-x86_64-cpython-310/pointnet2_ops/_ext-src/src/ball_query.o	c3cfcb2e1eb9ce0e
+1	12492	1757296016167122724	/home/ksaha/Research/ModelBasedPlanning/visplanWM/visplan/submodules/graspgen/pointnet2_ops/build/temp.linux-x86_64-cpython-310/pointnet2_ops/_ext-src/src/bindings.o	f665be1ea701fcef
+2	12573	1757296016168122747	/home/ksaha/Research/ModelBasedPlanning/visplanWM/visplan/submodules/graspgen/pointnet2_ops/build/temp.linux-x86_64-cpython-310/pointnet2_ops/_ext-src/src/sampling.o	16fb8ed2ecd83b67
+2	12573	1757296016168122747	/home/ksaha/Research/ModelBasedPlanning/visplanWM/visplan/submodules/graspgen/pointnet2_ops/build/temp.linux-x86_64-cpython-310/pointnet2_ops/_ext-src/src/sampling_gpu.o	cfa23415f1742381
+1	12602	1757296016167122724	/home/ksaha/Research/ModelBasedPlanning/visplanWM/visplan/submodules/graspgen/pointnet2_ops/build/temp.linux-x86_64-cpython-310/pointnet2_ops/_ext-src/src/group_points.o	f0a01200683bf9e1
+1	12636	1757296016167122724	/home/ksaha/Research/ModelBasedPlanning/visplanWM/visplan/submodules/graspgen/pointnet2_ops/build/temp.linux-x86_64-cpython-310/pointnet2_ops/_ext-src/src/interpolate.o	baf583814ed6c755
+2	12679	1757296016168122747	/home/ksaha/Research/ModelBasedPlanning/visplanWM/visplan/submodules/graspgen/pointnet2_ops/build/temp.linux-x86_64-cpython-310/pointnet2_ops/_ext-src/src/interpolate_gpu.o	38af8e842741569a
+1	12836	1757296016167122724	/home/ksaha/Research/ModelBasedPlanning/visplanWM/visplan/submodules/graspgen/pointnet2_ops/build/temp.linux-x86_64-cpython-310/pointnet2_ops/_ext-src/src/group_points_gpu.o	e549d01d8a84b3f4
+1	12862	1757296016167122724	/home/ksaha/Research/ModelBasedPlanning/visplanWM/visplan/submodules/graspgen/pointnet2_ops/build/temp.linux-x86_64-cpython-310/pointnet2_ops/_ext-src/src/ball_query_gpu.o	7be637e2fc4edd59

@@ -30,19 +30,24 @@ from grasp_gen.dataset.eval_utils import save_to_isaac_grasp_format
 
 
 def parse_args():
+
+    os.makedirs(f"/home/ksaha/Research/ModelBasedPlanning/visplanWM/assets/grasps", exist_ok=True)
+    object_name = "mug"
+
     parser = argparse.ArgumentParser(
         description="Visualize grasps on a single object mesh after GraspGen inference"
     )
     parser.add_argument(
         "--mesh_file",
         type=str,
-        required=True,
+        default=f"/home/ksaha/Research/ModelBasedPlanning/visplanWM/assets/ocrtoc_objects/models/{object_name}/collision.obj",
+        # required=True,
         help="Path to the mesh file (obj, stl, or ply)",
     )
     parser.add_argument(
         "--gripper_config",
         type=str,
-        default="",
+        default="/home/ksaha/Research/ModelBasedPlanning/visplanWM/visplan/submodules/graspgen/GraspGenModels/checkpoints/graspgen_franka_panda.yml",
         help="Path to gripper configuration YAML file",
     )
     parser.add_argument(
@@ -83,7 +88,7 @@ def parse_args():
     parser.add_argument(
         "--output_file",
         type=str,
-        default="",
+        default=f"/home/ksaha/Research/ModelBasedPlanning/visplanWM/assets/grasps/{object_name}.yaml",
         help="Path to save the output grasps. If empty, will save to outputs/YYYY-MM-DD/latest/output_grasps.yml",
     )
     parser.add_argument(

@@ -44,7 +44,7 @@ def parse_args():
     parser.add_argument(
         "--gripper_config",
         type=str,
-        default="",
+        default="~/Research/ModelBasedPlanning/visplan/submodules/graspgen/config/grippers/robotiq_2f_85.yaml",
         help="Path to gripper configuration YAML file",
     )
     parser.add_argument(
